@@ -1,0 +1,8 @@
+{
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/1584f284-e35c-40e8-90c8-4b388d4301af/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/K2TESTAPI",
+  "appService.deploySubpath": "."
+}

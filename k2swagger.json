@@ -1,0 +1,37 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Hello World REST API",
+    "description": "REST API that returns Hello World json object",
+    "version": "1.0"
+  },
+  "host": "k2testapi.azurewebsites.net",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [ "Hello World"],
+        "operationId": "HelloWorld",
+        "description": "Returns Hello World in a json object",
+        "consumes": [ ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [ ],
+        "responses": {
+          "200": {
+            "description": "Hello World",
+            "schema": {
+              "properties": {
+                "ReturnVal": {
+                  "type": "string"}
+              } 
+            }
+          }
+        }
+      }
+    }
+  }
+}   

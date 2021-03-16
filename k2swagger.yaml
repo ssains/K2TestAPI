@@ -3,6 +3,9 @@ info:
   title: Hello World REST API
   description: REST API that returns Hello World json object
   version: '1.0'
+host: k2testapi.azurewebsites.net
+schemes:
+  - https
 paths:
   /:
     get:
